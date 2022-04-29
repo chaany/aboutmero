@@ -1,0 +1,204 @@
+header{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+}
+body{
+    background-color:#f0f0f0;
+}
+#logo-text{
+    color: rgb(0, 162, 255);
+    font-weight: bold;
+    font-family: 'Square Peg', cursive;
+    font-size: 30px;
+    margin-left: 10px;
+}
+#buttons-header-div{
+    width:97%;
+    justify-content:end;
+    display: flex;
+    margin-right: 6px;
+}
+#buttons-header-div>button{
+    width: 90px;
+    height: 30px;
+    margin-top: 5px;
+    border: none;
+    background: none;
+    border-radius: 5px;
+    transition: 1s;
+    
+}
+#buttons-header-div>button:hover{
+    background: rgb(235, 235, 235);
+    
+}
+main{
+    background-color: white;
+    height: 89%;
+    width:100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background: linear-gradient(45deg, #ffe022 55%, white 50%);
+    overflow-y: auto;
+}
+#text-con{
+    font-family: 'Square Peg', cursive;
+    margin-top: 0px;
+    font-size: 40px;
+    color: rgb(0, 162, 255);
+    margin-left: 50px;
+    margin-bottom: 0em;
+    padding-top: 25px;
+}
+#contact{
+    
+    height: 300px;
+    width:400px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+    overflow-y:auto;
+    margin-top: 250px;
+}
+#cona{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#our{
+    margin-left: 5px;
+    margin-top: 1px;
+    font-family: 'Square Peg', cursive;
+    color: rgb(0, 162, 255);
+    margin-bottom: 0px;
+}
+#youtube{
+    display: flex;
+    height: 250px;
+    width: 350px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 8px;
+    border-radius: 7px;
+}
+#oue{
+    margin-left: 10px;
+    margin-top: 1px;
+    font-family: 'Square Peg', cursive;
+    color: rgb(0, 162, 255);
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+#contancs{
+    width:100%;
+    height: 200px;
+    margin-top: 20px;
+    background-color: rgb(236, 236, 236);
+}
+#about{
+    font-family: 'Square Peg', cursive;
+    color: rgb(0, 162, 255);
+    margin-bottom: 0px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 17px;
+}
+#oua{
+    font-family: 'Square Peg', cursive;
+    color: rgb(0, 162, 255);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 3px;
+}
+#contane>a:nth-child(1)>button{
+    width: 100%;
+    height: 35px;
+    border: solid 2px #d80808;
+    border-radius: 5px;
+    font-family: 'Square Peg', cursive;
+    font-size: medium;
+    transition: 1s;
+}
+#contane>a:nth-child(1)>button:hover{
+    background-color: #d80808;
+}
+#contane>a:nth-child(2)>button{
+    margin-top: 2px;
+    width: 100%;
+    height: 35px;
+    border: solid 2px #0896d8;
+    border-radius: 5px;
+    font-family: 'Square Peg', cursive;
+    font-size: medium;
+    transition: 1s;
+}
+#contane>a:nth-child(2)>button:hover{
+    background-color: #0896d8;
+}
+#contane>a:nth-child(3)>button{
+    margin-top: 2px;
+    width: 100%;
+    height: 35px;
+    border: solid 2px #08d1d8;
+    border-radius: 5px;
+    font-family: 'Square Peg', cursive;
+    font-size: medium;
+    transition: 1s;
+}
+#contane>a:nth-child(3)>button:hover{
+    background-color: #08d1d8;
+}
+.hre{
+    width: 320px;
+    margin-left:10px;
+}
+.hre>hr{
+    width: 320px;
+}
+
+@media (max-width:489px){
+    #text-con{
+        font-size: 28px;
+        margin-left: 30px;
+    }
+    #logo-text{
+        font-size: 20px;
+    }
+    
+    #buttons-header-div>button{
+        width: 70px;
+        height: 25px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #buttons-header-div>button:nth-child(1){
+        width: 40px;
+        margin-right: 0px;
+    }
+    #buttons-header-div>button:nth-child(2){
+        margin-left: 0px;
+        margin-right: 4px;
+        width: 80px;
+    }
+    #contact{
+        margin-top: 200px;
+        width: 350px;
+    }
+    #contact>div{
+        width: 310px;
+    }
+    #our{
+        width:300px;
+    }
+    .hre{
+        width:270px;
+    }
+    .hre>hr{
+        width:270px;
+    }
+}
